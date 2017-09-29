@@ -3,7 +3,7 @@ title: ThreeEggs Blog
 SEOTitle: 三颗蛋的博客 | ThreeEggs Blog
 header-img: img/home-bg.jpg
 email: wangmax0330@yeah.net
-description: " "
+description: "非典型程序员"
 keyword: "三颗蛋, Java, 架构, 程序员"
 # url: "https://三颗蛋.me"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -67,8 +67,8 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "...<br>..."
-sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "非典型程序员<br>曾骑行318国道(可惜未进藏)"
+sidebar-avatar: /img/avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
