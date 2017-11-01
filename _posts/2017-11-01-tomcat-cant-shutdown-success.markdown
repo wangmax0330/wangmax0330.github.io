@@ -99,8 +99,6 @@ public static void main(String[] args) {
 
 基于这个原理可以开始定位为什么Tomcat示例无法关闭了，可以通过jstack看看还有那些线程还在运行，之后逐一排除。
 
-
-
 ##解决方法
 
 
@@ -109,8 +107,6 @@ public static void main(String[] args) {
 > 在项目中找到对应new Thread的地方setDaemon(true)，后面shutdown就没有tomcat进程了;
 
 ####如何通过jstack定位Thread
-
-简单介绍一下可以使用jdk里面的jstack来找到出问题的Thread
 
 * 找到tomcat当前运行的pid
 
